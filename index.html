@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Sampatti Suraksha Junction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<img 
+  class="watermark" 
+  src="https://miaoda-conversation-file.s3cdn.medo.dev/user-8rgnmw0d2dxc/conv-8rgrprvdj01s/20260108/file-8schyj3ooao0.png" 
+  alt="Watermark"
+/>
+
+<div class="container">
+  <div class="header">
+    <img
+      src="https://miaoda-conversation-file.s3cdn.medo.dev/user-8rgnmw0d2dxc/conv-8rgrprvdj01s/20260108/file-8schyj3ooao0.png"
+      alt="IDFC FIRST Bank Logo"
+    />
+    <h1>Sampatti Suraksha Junction</h1>
+  </div>
+
+  <div class="wheel-wrapper">
+    <div class="pointer-container">
+      <div class="signal-pole"></div>
+      <div class="signal-light"></div>
+      <div class="pointer-arrow"></div>
+    </div>
+
+    <div class="wheel-rim">
+      <div id="wheel" class="wheel"></div>
+      
+      <div class="wheel-center">
+        <div class="bolt"></div>
+      </div>
+    </div>
+  </div>
+
+  <button id="spinBtn" class="spin-btn">🚂 Start Engine</button>
+
+  <div id="legend" class="legend"></div>
+</div>
+
+<div id="modal" class="modal hidden">
+  <div class="modal-content">
+    <h2 id="modal-title">Title</h2>
+
+    <div class="box accent">
+      <h3>❓ Passenger Query (Objection)</h3>
+      <p id="modal-objection">...</p>
+    </div>
+
+    <div class="box muted">
+      <h3>💡 Station Master's Advice (Response)</h3>
+      <p id="modal-response">...</p>
+    </div>
+
+    <div class="modal-actions">
+      <button id="closeModal">Close</button>
+      <button id="spinAgain">🔄 Spin Again</button>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
